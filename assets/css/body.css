@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+body {
+  background-color: #24252a;
+  color: white;
+}
+
+.titulo {
+  align-self: start;
+  padding-left: 6%;
+  align-items: center;
+  justify-content: center;
+  padding-left: 6%;
+  padding-top: 15%;
+  position: absolute;
+}
+
+.sobre{
+  margin-top: 300px;
+  padding: 2%;
+  background-color:var(--color-neutral-10);
+  justify-content: center;
+  text-align: center;
+}
+
+.projetos{
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.projetos img{
+  margin: 30px;
+}
+
+.git{
+  text-align: center;
+  justify-content: center;
+}
+
+.git{
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: #fff;
+    font-weight: 400;
+  }
+
+  .titulo , .foto {
+  display: inline-block;
+  }
+  
+.foto img{
+  border-radius: 100%;
+  position: relative;
+  margin-top: 7%;
+  margin-left: 120vh;
+}
+
+.g{
+  margin-top: -20vh;
+}
+
+@media screen and (max-width: 1750px){
+  .foto img{
+    height: 350px;
+    width: 350px;
+    margin-left: 120vh;
+  }
+}
+
+@media screen and (max-width: 1500px){
+ 
+  .foto img{
+    margin-left: 110vh;
+  }
+}
+
+@media screen and (max-width: 1400px){
+  .foto img{
+    position: none;
+    margin: 100%;
+
+  }
+
+  .sobre{
+    margin-top:unset;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  .foto img{
+    position: none;
+    margin: 75%;
+
+  }
+}
+
+@media screen and (max-width: 900px){
+  .foto img{
+    position: none;
+    margin: 58%;
+    padding-top: 20px;
+  }
+}
+
+@media screen and (max-width: 767px){
+  .foto img{
+    height: 0;
+    width: 0;
+  }
+
+  .titulo {
+    position: relative;
+    size: 30px;
+  }
+
+  .sobre{
+    margin-top: 200px;
+  }
+  .projetos img{
+    height: 300px;
+    width: 300px;
+  }
+
+}
+
+
+@media screen and (max-width: 730px) {
+  .projetos img{
+    height: 200px;
+    width: 200px;
+  }
+
+}
